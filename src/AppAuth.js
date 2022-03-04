@@ -1,20 +1,8 @@
 import React from "react";
-import {useState} from "react";
 import { useMoralis } from "react-moralis";
-import { useWeb3React } from "@web3-react/core"
-
-
-
-import Moralis from "moralis";
-
-
-
-
 
 function AppAuth(){
-
     const { authenticate, isAuthenticated, user, logout } = useMoralis();
-
     console.log("user", isAuthenticated)
     return <div>
         {isAuthenticated ? (

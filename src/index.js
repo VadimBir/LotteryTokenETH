@@ -5,8 +5,6 @@ import { MoralisProvider } from "react-moralis";
 import App from './App';
 import AppAuth from './AppAuth'
 
-
-
 ReactDOM.render(
   <MoralisProvider appId="xxxxxxxx" serverUrl="xxxxxxxx">
     <AppAuth />
